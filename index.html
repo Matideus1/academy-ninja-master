@@ -22,9 +22,13 @@
     		else if (e.keyCode == 40) { // DOWN
 				topValue = topValue + 10;
     		}
+			if (e.keyCode == 38) { // UP
+				topValue = topValue - 10;
     		// ...
-    		update();
     	}
+		update();
+
+		}
     </script>
 </body>
 </html>
